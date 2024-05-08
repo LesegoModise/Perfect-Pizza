@@ -71,7 +71,7 @@ body {
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 320px) {
         /* Apply this css if the page is wider than 960px */
     body {
         background-color: #9F9AA4;
