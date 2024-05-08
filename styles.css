@@ -57,6 +57,13 @@ body {
       color: #000000;
 }
 
+@media (min-width: 320px) {
+    /* Apply this css if the page is wider than 760px 
+    body {
+        background-color: #9F9AA4;
+    }*/
+}
+
 @media (min-width: 760px) {
     /* Apply this css if the page is wider than 760px 
     body {
