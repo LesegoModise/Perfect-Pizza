@@ -1,0 +1,75 @@
+body {
+    background-color: #9F9AA4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+.Pizza {
+    border: 3px solid #ffffff;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+
+    /* Use display : inline-block*/
+    /*display: inline-block;
+    width: 20em;
+    min-height: 10em*/
+    ;
+}
+
+
+.Small_Pizza {
+    background-color: #CFD8D7;
+    font-size: medium;
+    flex: 1.3;
+}
+
+.Medium_Pizza {
+    background-color: #B5C9C3;
+    font-size: medium;
+    flex: 1.6;
+}
+
+.Large_Pizza {
+    background-color: #CAB1BD;
+    font-size: medium;
+    flex: 1.9;
+}
+
+.Contact_Us {
+    background-color: #E7CFCD;
+    font-size: medium;
+}
+
+.Font {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Font1 {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.Special {
+      background-color: beige;
+      color: #000000;
+}
+
+@media (min-width: 760px) {
+    /* Apply this css if the page is wider than 760px 
+    body {
+        background-color: #9F9AA4;
+    }*/
+}
+
+@media (min-width: 960px) {
+        /* Apply this css if the page is wider than 960px 
+    body {
+        background-color: #9F9AA4;
+    }*/
+    .Delicious_Pizza {
+        display: flex;
+    }
+}
