@@ -57,21 +57,21 @@ body {
       color: #000000;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px max-width: 759px) {
     /* Apply this css if the page is wider than 320px*/ 
     body {
         background-color: #9F9AA4;
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 760px max-width: 959px) {
     /* Apply this css if the page is wider than 760px*/ 
     body {
         background-color: #9F9AA4;
     }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 960px max-width: 1200px) {
         /* Apply this css if the page is wider than 960px */
     body {
         background-color: #9F9AA4;
